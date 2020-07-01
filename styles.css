@@ -1,0 +1,32 @@
+body {
+	background-color: rgba(30, 144, 255,0.2);
+	color: rgb(0,0,0);
+    text-align: center;
+}
+h1, h2 {
+	font-weight: bold;
+	font-family: Arial, Verdana, sans-serif;
+	line-height: 1.2em;
+}
+table {
+	border: 3px solid rgba(0,0,0,0.5);
+	margin: 0 auto;
+	font-family: Arial, Verdana, sans-serif;
+    background-color: rgba(255,0,0,0.3);
+
+}
+thead {
+	font-weight: bold;
+	font-size: 130%;
+	background-color: rgba(255,0,0,0.3);
+}
+th, td {
+	border-top: 2px solid rgba(0,0,0,0.5);
+}
+.syntax {
+	background-color: beige;
+	font-family: monospace;
+}
+
+
+
