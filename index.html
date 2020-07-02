@@ -6,12 +6,18 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="keywords" content="html,css,Cheatsheat,how to">
+	<meta http-equiv="author" content="mazhar khan">
 </head>
 <body>
-	
-    <h1 class="cheatsheet"><img src="images/cheatsheet.png" align="middle"><abbr title="HyperText Markup Language"> HTML</abbr></dfn> Cheatsheat</h1>
-    
-    <h2>Form Elements</h2>
+	<header>
+	    <nav>
+		    <a href="list-of-contents.html">Navigate to list of contents.</a>
+	    </nav>
+        <h1 class="cheatsheet">
+        	<img src="images/cheatsheet.png" align="middle"><abbr title="HyperText Markup Language"> HTML</abbr></dfn> Cheatsheat
+        </h1>
+        <h2 id="form-elements">Form Elements</h2>
+    </header>
     <!--Starting of first table-->
     <table>
     	<thead>
@@ -62,14 +68,14 @@
     	</thead>
     	<tbody>
     		<tr>
-    		    <th>The Comment Tag</th>
+    		    <th id="comment-tag">The Comment Tag</th>
     		    <td><span class="syntax">&lt;--...--&gt;</span></td>
     		    <td>The comment tag is used to add comments and description to your html documents. They are not displayed on the webpage. Their main purpose is increase readibility of your code.<br>
                 <img src="images/comments.png" />  
     		    </td>
     		</tr>
     		<tr>
-    			<th>The <span style="background-color: beige">&lt;a&gt;</span> Tag</th>
+    			<th id="hyperlink-tag">The <span style="background-color: beige">&lt;a&gt;</span> Tag</th>
     			<td><span class="syntax">&lt;a&gt;</span></td>
     			<td>The &lt;a&gt; defines hyperlinks, which is used to connect to other web pages. It's most important attribute is <strong>href</strong> which indicates the links description.
     		    <br>
@@ -77,7 +83,7 @@
     		    </td>
     		</tr>
     		<tr>
-    			<th>The Abbreviation Tag</th>
+    			<th id="abbreviation-tag">The Abbreviation Tag</th>
     			<td><span class="syntax">&lt;abbr&gt;</span></td>
     			<td>The abbreviation tag defines an abbreviation or an acronym like HTML, CSS etc.
     			<br>
@@ -85,39 +91,45 @@
     			</td>
     		</tr>
     		<tr>
-    			<th>The Address Tag</th>
+    			<th id="address-tag">The Address Tag</th>
     			<td><span class="syntax">&lt;address&gt;</td>
     			<td>The address tag defines the contact information of the author or owner of the document.<br>
     			<img src="images/address.png">
     			</td>	
     		</tr>
     		<tr>
-    			<th>The Article Tag</th>
+    			<th id="article-tag">The Article Tag</th>
     			<td><span class="syntax">&lt;article&gt;</span></td>
     			<td>The article tag specifies independent, self-contained content.An article should make sense on its own and it should be possible to distribute it independently from the rest of the site.<br>
     		    <img src="images/article.png"></td>
     		</tr>
     		<tr>
-    			<th>The Aside Tag</th>
+    			<th id="aside-tag">The Aside Tag</th>
     			<td><span class="syntax">&lt;aside&gt;</span></td>
     			<td>The aside tag defines some content aside from the content it is placed in. The aside tag should indirectly be connected to the surrounding content.<br>
                 <img src="images/aside.png">
     			</td>
     		</tr>
     		<tr>
-    			<th>The Blockquote Tag</th>
+    			<th id="blockquote-tag">The Blockquote Tag</th>
     			<td><span class="syntax">&gt;blockquote&gt;</span></td>
     			<td>The blockquote specifies a section that is quoted form another source. Browsers usually indent blockquote.<br>
                 <img src="images/blockquote.png">
     			</td>
     		</tr>
     		<tr>
-    			<th>The Body Element</th>
+    			<th id="body-tag">The Body Element</th>
     			<td><span class="syntax">&lt;body&gt;</span></td>
     			<td>The body element is almost used in all HTML projects. It defines the document's body.<br>
     			<img src="images/body.png"></td>
     		</tr>    
     	</tbody>
     </table>
+    <br><br>
+    <footer>
+        <address>
+    	    Created by <a href="mailto:khanmazhar9101@gmail.com" style="text-decoration:none;">Mazhar Khan.</a>
+        </address>
+    </footer>
 </body>
 </html>
